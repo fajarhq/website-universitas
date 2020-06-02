@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href=styles.css>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">    <title>Universitas Pembelajar</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Universitas Pembelajar</h3>
+                <strong>UP</strong>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#homeSubmenu">
+                        <i class="fas fa-tachometer-alt"></i>
+                        Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-user-graduate"></i>
+                        Mahasiswa
+                    </a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Daftar Mahasiswa</a>
+                        </li>
+                        <li>
+                            <a href="#">Nilai Mahasiswa</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        Daftar Dosen
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-user"></i>
+                        Daftar Pegawai
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-calendar"></i>
+                        Jadwal Kuliah
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <form class="form-inline my-2 my-lg-0 mr-4">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-envelope"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-bell"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-sign-out-alt"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="isi">
+                <div class="row mt-5">
+                    <div class="col-sm">
+                        <div class="class-box">
+                            <div class="bg-info">
+                            <i class="fas fa-user-graduate big-right-icon"></i>
+                            </div>
+                            <div class="box-content">
+                            <h3 class="title-bg text-outline">JUMLAH MAHASISWA</h3>
+                            <p></p>
+                            <h2 class="title-bg text-outline font-weight-bold">1200</h2>
+                            <h6 class="title-bg text-outline">Lihat detail >></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="class-box">
+                            <div class="bg-success">
+                            <i class="fas fa-chalkboard-teacher big-right-icon"></i>
+                            </div>
+                            <div class="box-content">
+                            <h3 class="title-bg text-outline">JUMLAH DOSEN</h3>
+                            <p></p>
+                            <h2 class="title-bg text-outline font-weight-bold">58</h2>
+                            <h6 class="title-bg text-outline">Lihat detail >></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="class-box">
+                            <div class="bg-danger">
+                            <i class="fas fa-chalkboard-teacher big-right-icon"></i>
+                            </div>
+                            <div class="box-content">
+                            <h3 class="title-bg text-outline">JUMLAH PEGAWAI</h3>
+                            <p></p>
+                            <h2 class="title-bg text-outline font-weight-bold">21</h2>
+                            <h6 class="title-bg text-outline">Lihat detail >></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-sm">
+                        <div class="card text-center">
+                            <div class=bg-danger>
+                            <i class="fab fa-instagram big-centered-icon"></i>
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title text-danger">INSTAGRAM</h5>
+                              <a href="#" class="btn btn-danger">Follow</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card text-center">
+                            <div class=bg-info>
+                            <i class="fab fa-facebook big-centered-icon"></i>
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title text-info">FACEBOOK</h5>
+                              <a href="#" class="btn btn-info">LIKE</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card text-center">
+                            <div class=bg-primary>
+                            <i class="fab fa-twitter big-centered-icon"></i>
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title text-primary">TWITTER</h5>
+                              <a href="#" class="btn btn-primary">FOLLOW</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+</html>
